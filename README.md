@@ -1,4 +1,4 @@
-# pokeemerald-expansion
+# pokeemerald tau
 
 ## What is pokeemerald-expansion?
 
