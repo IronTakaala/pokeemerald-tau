@@ -2,11 +2,11 @@
 #define GUARD_CONFIG_OVERWORLD_H
 
 // Movement config
-#define OW_RUNNING_INDOORS          GEN_LATEST  // In Gen4+, players are allowed to run indoors.
+#define OW_RUNNING_INDOORS          GEN_4  // In Gen4+, players are allowed to run indoors.
 
 // Other settings
-#define OW_POISON_DAMAGE            GEN_LATEST // In Gen4, Pokémon no longer faint from Poison in the overworld. In Gen5+, they no longer take damage at all.
-#define OW_TIMES_OF_DAY             GEN_LATEST // Different generations have the times of day change at different times
+#define OW_POISON_DAMAGE            GEN_4 // In Gen4, Pokémon no longer faint from Poison in the overworld. In Gen5+, they no longer take damage at all.
+#define OW_TIMES_OF_DAY             GEN_6 // Different generations have the times of day change at different times
 
 // PC settings
 #define OW_PC_PRESS_B               GEN_LATEST // In Gen4, pressing B when holding a Pokémon is equivalent to placing it. In Gen3, it gives the "You're holding a Pokémon!" error.
@@ -17,14 +17,14 @@
 #define OW_COMPOUND_EYES            GEN_LATEST // Prior to Gen9, if a Pokémon with Compound Eyes is leading the party, the wild held item rate is increased to 60%/20%.
 #define OW_SUPER_LUCK               GEN_LATEST // In Gen8, if a Pokémon with Super Luck is leading the party, the wild held item rate is increased to 60%/20%.
 #define OW_CUTE_CHARM               GEN_LATEST // Prior to Gen9, if a Pokémon with Cute Charm is leading the party, wild encounters have a 66.7% chance to be forced to be of the opposite gender.
-#define OW_ILLUMINATE               GEN_LATEST // Prior to Gen9, if a Pokémon with Illuminate is leading the party, the wild encounter rate is doubled.
+#define OW_ILLUMINATE               GEN_6 // Prior to Gen9, if a Pokémon with Illuminate is leading the party, the wild encounter rate is doubled.
 #define OW_INFILTRATOR              GEN_LATEST // In Gen8, if a Pokémon with Infiltrator is leading the party, the wild encounter rate is halved.
 #define OW_HARVEST                  GEN_LATEST // In Gen8, if a Pokémon with Harvest is leading the party, there is a 50% chance to encounter a Grass-type Pokémon.
 #define OW_LIGHTNING_ROD            GEN_LATEST // In Gen8, if a Pokémon with Lightning Rod is leading the party, there is a 50% chance to encounter an Electric-type Pokémon.
 #define OW_STORM_DRAIN              GEN_LATEST // In Gen8, if a Pokémon with Storm Drain is leading the party, there is a 50% chance to encounter a Water-type Pokémon.
 #define OW_FLASH_FIRE               GEN_LATEST // In Gen8, if a Pokémon with Flash Fire is leading the party, there is a 50% chance to encounter a Fire-type Pokémon.
-#define OW_MAGNET_PULL              GEN_LATEST // Prior to Gen9, if a Pokémon with Magnet Pull is leading the party, there is a 50% chance to encounter a Steel-type Pokémon.
-#define OW_STATIC                   GEN_LATEST // Prior to Gen9, if a Pokémon with Static is leading the party, there is a 50% chance to encounter an Electric-type Pokémon.
+#define OW_MAGNET_PULL              GEN_6 // Prior to Gen9, if a Pokémon with Magnet Pull is leading the party, there is a 50% chance to encounter a Steel-type Pokémon.
+#define OW_STATIC                   GEN_6 // Prior to Gen9, if a Pokémon with Static is leading the party, there is a 50% chance to encounter an Electric-type Pokémon.
 
 // Overworld flags
 // To use the following features in scripting, replace the 0s with the flag ID you're assigning it to.
